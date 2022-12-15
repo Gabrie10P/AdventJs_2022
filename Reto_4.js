@@ -7,7 +7,7 @@ const boxes = [
 function fitsInOneBox(boxes){
 
     let boxFit = false;
-
+    
     const nboxes = boxes.sort((a,b) =>{
         if((a.l + a.w + a.h) < (b.l + b.w + b.h)) return -1;
         return 1;
